@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Log in form</title>
+        <link rel="stylesheet" type="text/css" href="frontier.css">
+
+        <style>
+            *{
+                box-sizing: border-box;
+                font-family: arial;
+            }
+            #loginform{
+                width: 200px;
+                border: solid 1px;
+                margin: auto;
+                margin-top: 2em;
+                padding: 1em;
+                background-color: white;
+            }
+            input{
+                display:  block;
+                margin-bottom: .5em;
+                width: 100%;
+                border-style: solid;
+                border-color: black;
+                border-width: thin;
+                padding: 1em;
+            }
+
+            label{
+                margin-top: 2em;
+                border-color: black;
+            }
+
+            input[type="submit"]{
+                margin-top: 3em;
+                background-color: dodgerblue;
+                font-size: 1.2em;
+                padding: .5em;
+                border-width: thin;
+            }
+        </style>
+    </head>
+    <body>
+
+
+    <section id="loginform">
+                <form id="loginform2" action="profile.html">
+    <h2>Frontier Login</h2>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name">
+            <label for="pw">Password</label>
+            <input type="password" id="pw" placeholder="Password">
+            <input type="submit" value="log in" id="login">
+        </form>
+    </section>
+
+        <script src="frontier.js"></script>
+    </body>
+</html>
